@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "==22.3.0"
+jedi = "<0.19.0,>=0.17.2"
+langchain = "*"
+openai = "==0.28.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
